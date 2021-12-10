@@ -28,6 +28,8 @@ npm start
     |-- tpl.js // json转xml相关
     |-- sign.js // 签名相关
     |-- www.js // 启动对接公众号服务端
+    |-- windows-sunny-ngrok // 外网穿透
+    |-- front // vue3前端逻辑 
     |-- package.json
     |-- .gitignore
 ```
@@ -59,3 +61,5 @@ npm start
 ## 最后
 
 [微信公众号开发文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842)
+
+tips: 测试号对接不需要https,域名也不需要备案
